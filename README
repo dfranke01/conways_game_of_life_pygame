@@ -1,0 +1,12 @@
+code for the pygame tutorial found at http://2manyprojects.net
+
+there is one code file, conways_game_of_life.py, and some .png files that are used as icons.
+
+Instructions
+   
+    1) checkout code from repository
+    2) install python 2.7, numpy, and pygame 
+    3) run the .py file 
+
+
+    
