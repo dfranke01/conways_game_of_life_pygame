@@ -346,15 +346,6 @@ def makeText(text, color, bgcolor, top, left):
     textRect.topleft = (top, left)
     return (textSurf, textRect)
             
-    import numpy as np
-
-GRIDWIDTH = 1280
-GRIDHEIGHT = 960
-CELLSIZE = 20
-assert GRIDWIDTH % CELLSIZE == 0, "Window width must be a multiple of cell size."
-assert GRIDHEIGHT % CELLSIZE == 0, "Window height must be a multiple of cell size."
-CELLWIDTH = int(GRIDWIDTH / CELLSIZE) # CELLWIDTH/HEIGHT is the width of the window in cells
-CELLHEIGHT = int(GRIDHEIGHT / CELLSIZE)
 
 def createBlinker(xCenter, yCenter):
     # test a blinker
